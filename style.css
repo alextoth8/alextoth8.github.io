@@ -1,0 +1,70 @@
+HTML, body {
+    margin: 0px;
+    padding: 0px;
+      border: 0px;
+
+    }
+
+    header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    height: 85px;
+    width: 130px;
+    float: right;
+}
+
+.navbar-list {
+    float: left;
+}
+
+.navbar-list li {
+    display: inline-block;
+}
+
+.navbar-list a {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: gold;
+    padding-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Alex {
+    text-align: center;
+}
+
+#Alex-image {
+    height: 400px;
+    width: 400px;
+
+}
+
+.introduction {
+    text-align: justify;
+    padding: 10px 50px;
+}
+
+.introduction h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+}
+
+.introduction p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+
+.links h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
